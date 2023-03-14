@@ -73,12 +73,6 @@ def df_creater(url):
     return df
 
 
-print('git Test1')
-print('git2 test2')
-
-
-
-
 def get_puuid(user):
     url = f'https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-name/{user}?api_key={riot_api_key}'
     res = requests.get(url).json()
