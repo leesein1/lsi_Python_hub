@@ -5,7 +5,9 @@ import requests
 
 dsn = cx_Oracle.makedsn('localhost', 1521, 'xe')
 seoul_api_key = '65674a4b6c6d69693437644378696d'
-riot_api_key = 'RGAPI-25d88498-9e65-44bb-b80b-7738d7795fee'
+
+riot_api_key = 'RGAPI-eb346f0e-c4b1-4de7-bf70-1ece8cf086ab'
+
 
 def db_open():
     global db
